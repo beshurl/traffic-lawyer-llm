@@ -19,18 +19,6 @@ Polyglot-ko 모델을 활용한 경량 파인튜닝
 
 실사용 형태의 “교통 AI 변호사” 시나리오 구현
 
-### 프로젝트 구조
-/traffic-lawyer-llm
- ┣ data/
- ┃ ┣ final_train_data.csv
- ┃ ┣ final_test_data.csv
- ┃ ┗ final_val_data.csv
- ┣ notebooks/
- ┃ ┗ capstone_finetuning.ipynb  ← 전체 실험 코드
- ┣ saved_model/
- ┃ ┗ polyglot-lora (LoRA weight 저장)
- ┣ README.md  ← 프로젝트 설명
- ┗ inference_example.py (옵션)
 
 ## 데이터셋 제작 과정
 ### 공공 데이터 수집
